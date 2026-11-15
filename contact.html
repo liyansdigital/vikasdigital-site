@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Vikas Digital</title>
+<meta name="description" content="Send an enquiry to Vikas Digital about a website for your business, or ask for a free review of your existing website.">
+<meta property="og:title" content="Contact — Vikas Digital">
+<meta property="og:description" content="Send an enquiry to Vikas Digital about a website for your business, or ask for a free review of your existing website.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vikas Digital">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Vikas Digital — home">Vikas<span>Digital</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="process.html">Process</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html" class="active" aria-current="page">Contact</a>
+    </nav>
+    <a class="btn btn-primary btn-sm header-cta" href="contact.html">Start Your Enquiry</a>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Contact</p>
+    <h1>Contact Vikas Digital</h1>
+    <p class="lead">Tell us about your business and the website you need, using the form below. Every enquiry is read, and the next step is a discovery conversation followed by a written proposal with a fixed price and timeline — no obligation, and no work begins until you've approved that proposal.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <div class="prose">
+      <h2>What to include in your enquiry</h2>
+      <p>The more of this you can share, the more useful the proposal will be:</p>
+      <ul>
+        <li>Your business name and what you do</li>
+        <li>Whether you need a new website or a replacement for an existing one (include your current web address if you have one)</li>
+        <li>The package you're interested in — Starter ($749), Professional ($1,499) or Elite ($2,999) — or "not sure yet"</li>
+        <li>Any add-ons you're considering: extra pages, logo design, copywriting, e-commerce, booking, maintenance</li>
+        <li>Anything else the website needs to do</li>
+      </ul>
+      <h2>Already have a website? Ask for a free review</h2>
+      <p>If your business already has a website, use the same form and mention you'd like a free review. We'll look at how the site presents your business and what could be improved, and include our findings in the reply.</p>
+      <h2>Other ways to reach us</h2>
+      <p>All enquiries currently go through the form on this page — it's the fastest way to reach us and makes sure nothing gets lost.</p>
+    </div>
+    <form class="contact-form" name="contact" method="POST" data-netlify="true" action="contact.html?sent=1">
+      <input type="hidden" name="form-name" value="contact">
+      <div class="field">
+        <label for="cf-name">Name <span aria-hidden="true">*</span></label>
+        <input id="cf-name" name="name" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="cf-email">Email address <span aria-hidden="true">*</span></label>
+        <input id="cf-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="cf-type">Project type</label>
+        <select id="cf-type" name="project-type">
+          <option value="not-sure">Not sure yet</option>
+          <option value="starter">Starter — $749</option>
+          <option value="professional">Professional — $1,499</option>
+          <option value="elite">Elite — $2,999</option>
+          <option value="free-review">Free review of my existing website</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cf-budget">Budget</label>
+        <select id="cf-budget" name="budget">
+          <option value="">Select a budget range (optional)</option>
+          <option value="under-749">Under $749</option>
+          <option value="749-1499">$749 – $1,499</option>
+          <option value="1500-2999">$1,500 – $2,999</option>
+          <option value="3000-plus">$3,000+</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cf-message">Your message <span aria-hidden="true">*</span></label>
+        <textarea id="cf-message" name="message" rows="7" required></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Send Enquiry</button>
+      <p class="form-note" id="form-sent" hidden>Thank you — your enquiry has been sent. We'll reply to the email address you provided.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="index.html">Vikas<span>Digital</span></a>
+      <p>Vikas Digital designs clear, professional websites for small businesses — fixed packages, written proposals, no surprises.</p>
+      <p class="footer-note">Payments are agreed in your written proposal before work begins.</p>
+    </div>
+    <nav class="footer-col" aria-label="Site navigation">
+      <h3>Explore</h3>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="process.html">Process</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+    </nav>
+    <nav class="footer-col" aria-label="Legal">
+      <h3>Legal</h3>
+          <a href="terms.html">Terms of Service</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="refund-policy.html">Refund Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Vikas Digital. All rights reserved.</p>
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
